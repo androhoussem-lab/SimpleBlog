@@ -1,0 +1,30 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+h2{
+  color: #ffa730;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  border: solid #e6e3e2;
+}
+p .fa-exclamation-triangle{
+  font-size: 5em;
+  color: #c44800;
+  padding-top: 30px;
+  text-align: center;
+}
+.font-icon-alert{
+  text-align: center;
+}
+.fa-star{
+color: #ffcc0e;
+}
+.fa-user-circle{
+  font-size: 2em;
+}
