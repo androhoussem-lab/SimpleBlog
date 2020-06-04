@@ -41,6 +41,7 @@ class Post extends Model
         }
         return $resume;
     }
+    //return readable format of time exp 1 min ago
     public function formatTimeForHuman(){
         return Carbon::createFromTimeStamp(strtotime($this->created_at))->diffForHumans();
     }
